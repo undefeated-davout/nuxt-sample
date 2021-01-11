@@ -22,6 +22,7 @@
     "firebase": "^8.2.2",
     "nuxt": "^2.14.6",
     "vue-property-decorator": "^9.1.2",
+    "vue-star-rating": "^1.7.0",
     "vuex-module-decorators": "^1.0.1"
   },
   "devDependencies": {
