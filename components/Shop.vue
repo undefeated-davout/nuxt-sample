@@ -80,4 +80,18 @@ export default Vue.extend({
   margin-top: 32px;
   font-size: 14px;
 }
+
+/** 追加 */
+
+@media screen and (max-width: 767px) {
+  .shop-card {
+    width: 90vw;
+  }
+}
+
+.shop-info {
+  padding: 4px;
+  height: 150px;
+  overflow: hidden;
+}
 </style>

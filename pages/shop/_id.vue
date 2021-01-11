@@ -96,6 +96,18 @@ export default Vue.extend({
         })
     },
   },
+  head() {
+    return {
+      title: this.shop.shopName,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.shop.description,
+        },
+      ],
+    }
+  },
 })
 </script>
 
